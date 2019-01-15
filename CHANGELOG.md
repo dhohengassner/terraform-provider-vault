@@ -1,4 +1,12 @@
 ## 1.9.0 (Unreleased)
+
+FEATURES:
+
+* **New Resource**: `ldap_auth_backend_config` ([#273](https://github.com/terraform-providers/terraform-provider-vault/pull/273))
+
+BACKWARDS INCOMPATIBILITIES / NOTES:
+* `ldap_auth_backend` is deprecated; use `ldap_auth_backend_config` instead.
+
 ## 1.8.0 (May 07, 2019)
 
 FEATURES:
